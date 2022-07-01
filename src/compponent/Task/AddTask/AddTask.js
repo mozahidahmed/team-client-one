@@ -6,7 +6,7 @@ const AddTask = () => {
     const { register, handleSubmit } = useForm();
     const onSubmit = data => {
 
-    const url='http://localhost:5000/task';
+    const url='https://honest-loonie-33185.herokuapp.com/task';
     fetch(url,{
     method:'POST',
     headers:{
